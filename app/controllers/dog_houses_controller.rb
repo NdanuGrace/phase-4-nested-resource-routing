@@ -6,6 +6,10 @@ class DogHousesController < ApplicationController
     render json: dog_house
   end
 
+
+  
+
+
   private
 
   def render_not_found_response
